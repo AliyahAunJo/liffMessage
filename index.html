@@ -11,10 +11,10 @@
         // liff.id equals to liffId
         liff.ready.then(() => {
             liff
-  .sendMessages([
-    {
-  "type": "flex",
-  "contents": [
+  .sendMessages([{     
+          "type": "flex",
+          "altText": "ครูอั๋น ใจดี",
+          "contents":
     {
   "type": "bubble",
   "hero": {
@@ -167,8 +167,8 @@
     "flex": 0
   }
 }
-  ]
-},
+  
+}
   ])
   .then(() => {
     console.log("message sent");
