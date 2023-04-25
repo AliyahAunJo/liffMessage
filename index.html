@@ -17,96 +17,170 @@
           "contents":
     //*******
     {
-      "type": "bubble",
-      "size": "micro",
-      "hero": {
-        "type": "image",
-        "url": "https://res.cloudinary.com/dtdyrr6q4/image/upload/v1682404761/298909197_2606373486161009_5837903189936668898_n_vjihq1.jpg",
-        "size": "full",
-        "aspectMode": "cover",
-        "aspectRatio": "320:213"
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://res.cloudinary.com/dtdyrr6q4/image/upload/v1682404761/298909197_2606373486161009_5837903189936668898_n_vjihq1.jpg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {
+      "type": "uri",
+      "uri": "https://linecorp.com"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "md",
+    "action": {
+      "type": "uri",
+      "uri": "https://linecorp.com"
+    },
+    "contents": [
+      {
+        "type": "text",
+        "text": "ครูอั๋น  ใจดี",
+        "size": "xl",
+        "weight": "bold",
+        "color": "#00FFCA"
       },
-      "body": {
+      {
+        "type": "separator",
+        "color": "#FFFFFF",
+        "margin": "sm"
+      },
+      {
         "type": "box",
         "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Facebook",
+                "weight": "bold",
+                "margin": "sm",
+                "flex": 0,
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "https://www.facebook.com/kruaunjaidee"
+                },
+                "color": "#05BFDB"
+              },
+              {
+                "type": "text",
+                "text": "ครูอั๋น  ใจดี",
+                "size": "md",
+                "align": "end",
+                "color": "#00ffff",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "https://www.facebook.com/kruaunjaidee"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "color": "#FFFFFF",
+        "margin": "sm"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
         "contents": [
           {
             "type": "text",
-            "text": "ครูอั๋น  ใจดี",
+            "text": "Mobile",
             "weight": "bold",
-            "size": "15px",
-            "wrap": true,
-            "offsetTop": "5px",
-            "margin": "xs"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "type": "box",
-                "layout": "baseline",
-                "spacing": "sm",
-                "contents": []
-              }
-            ]
-          },
-          {
-            "type": "separator",
-            "margin": "md"
-          },
-          {
-            "type": "text",
-            "text": "LINE  kruaun_jaidee",
-            "weight": "bold",
-            "size": "xs",
-            "wrap": true
-          },
-          {
-            "type": "text",
-            "text": "Tel 095-250-8587",
-            "weight": "bold",
-            "size": "sm",
-            "wrap": true,
+            "margin": "sm",
+            "flex": 0,
             "action": {
               "type": "uri",
               "label": "action",
-              "uri": "tel:095-250-8587"
-            }
+              "uri": "tel:09-5250-8587"
+            },
+            "color": "#05BFDB"
           },
           {
             "type": "text",
-            "text": "Facebook ครูอั๋น  ใจดี",
-            "weight": "bold",
-            "size": "sm",
-            "wrap": true,
+            "text": "Tel : 0952508587",
+            "size": "md",
+            "align": "end",
+            "color": "#00ffff",
             "action": {
               "type": "uri",
               "label": "action",
-              "uri": "tel:095-250-8587"
-            }
-          },
-          {
-            "type": "separator",
-            "margin": "md"
-          },
-          {
-            "type": "text",
-            "text": "คอร์สที่เปิดสอน",
-            "weight": "bold",
-            "size": "sm",
-            "wrap": true,
-            "action": {
-              "type": "uri",
-              "label": "action",
-              "uri": "tel:095-250-8587"
+              "uri": "tel:09-5250-8587"
             }
           }
-        ],
-        "spacing": "sm",
-        "paddingAll": "13px"
+        ]
+      },
+      {
+        "type": "separator",
+        "color": "#FFFFFF",
+        "margin": "sm"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "LINE ID",
+            "weight": "bold",
+            "margin": "sm",
+            "flex": 0,
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "http://line.me/ti/p/~kruaun_jaidee"
+            },
+            "color": "#05BFDB"
+          },
+          {
+            "type": "text",
+            "text": "kruaun_jaidee",
+            "size": "lg",
+            "align": "end",
+            "color": "#00ffff",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "http://line.me/ti/p/~kruaun_jaidee"
+            }
+          }
+        ]
       }
-    }
+    ],
+    "backgroundColor": "#1A5F7A"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#f80509",
+        "action": {
+          "type": "uri",
+          "label": "สนใจคอร์สเรียนตัวต่อตัว",
+          "uri": "https://docs.google.com/document/d/10atKZQler7-kNarE8OkWZPlbvKvAG1ejS2cBfa67lzE/edit?usp=sharing"
+        }
+      }
+    ],
+    "backgroundColor": "#088395"
+  }
+}
   
  //********   
 }])
